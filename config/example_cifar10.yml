@@ -1,0 +1,22 @@
+agent: CIFAR10Agent
+
+train:
+  lr: 0.0002
+  n_epochs: 50
+  save_dir: "export/"
+
+tensorboard:
+  dir: "run/cifar10"
+
+dataset:
+  input_size: 64
+  batch_size: 64
+
+discriminator:
+  channels_img: 3
+  features_d: 16
+
+generator:
+  channels_noise: 256
+  channels_img: 3
+  features_g: 16
