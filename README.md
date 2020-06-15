@@ -46,3 +46,4 @@ $ python main.py --config config/example_mnist.yml
 ```bash
 $ tensorboard --logdir="run" --host=0.0.0.0 --port=6006
 ```
+![results](imgs/dcgan.png)
